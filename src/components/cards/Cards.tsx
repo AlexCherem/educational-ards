@@ -4,7 +4,7 @@ import { Sort } from '@/components/tableSortHeader'
 import { Button } from '@/components/ui/button'
 import { Typography } from '@/components/ui/typography'
 
-import s from './cards.module.scss'
+import s from './Cards.module.scss'
 
 type CardsProps = {
   cards: Card[] | undefined

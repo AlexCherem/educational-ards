@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Typography } from '@/components/ui/typography'
 import { clsx } from 'clsx'
 
-import s from './backButton.module.scss'
+import s from './BackButton.module.scss'
 
 export type BackButtonProps = {
   className?: string

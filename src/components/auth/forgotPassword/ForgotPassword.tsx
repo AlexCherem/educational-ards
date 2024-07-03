@@ -9,7 +9,7 @@ import { Typography } from '@/components/ui/typography'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 
-import s from './forgotPassword.module.scss'
+import s from './ForgotPassword.module.scss'
 
 const signUpSchema = z.object({
   email: z.string().email(),
